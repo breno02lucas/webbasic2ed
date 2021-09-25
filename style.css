@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+body{	
+	background-color: #04050c;
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	height: 100px;
+}
+
+header img{
+	width: 150px;
+
+	margin-left: calc(50% - 50px);
+}
+
+#art-1{
+	width: 100%;
+	height: 700px;
+
+	background-image: url("img/img-fundo-1.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition-duration: .5s;
+}
+
+#art-1 img{
+	float: right;
+	width: 300px;
+	margin-top: 150px;
+	margin-right: 250px;
+}
+
+#art-1 h1{
+	float: left;	
+	margin-top: 250px;
+	margin-left: 250px;
+
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+	color: white;
+}
+
+#art-1 h1:hover mark{
+	background-color: #fff;
+	color: #000;
+}
+
+#art-1 h1 mark{
+	background-color: #00FFFF;
+	transition-duration: .3s;
+}
+
+#art-2{
+	width: 100%;
+	height: 200px;
+
+	background-image: url("img/console-logos.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#art-3{
+	width: 100%;
+	height: 500px;
+}
+
+.asside-left{
+	float: left;
+	width: 49%;
+}
+.asside-right{
+	float: right;
+	width: 49%;
+}
+
+#art-3 .asside-left h1{
+	margin-top: 100px;
+	padding: 50px;
+
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: #00FFFF;
+}
+
+#art-3 .asside-left h1 mark{
+	background-color: #00FFFF;
+	color: black;
+	transition-duration: .3s;
+}
+
+#art-3 .asside-left:hover h1 mark{
+	background-color: white;
+	color: black;
+}
+
+#art-3 .asside-left p{	
+	padding: 0 50px 50px;
+
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	font-size: 25px;
+	color: #c9c9c9;
+}
+
+#art-3 .asside-right img{
+	width: 100%;
+}
