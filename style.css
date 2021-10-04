@@ -116,3 +116,62 @@ header img{
 #art-3 .asside-right img{
 	width: 100%;
 }
+
+#art-4{
+	float: left;
+	width: 100%;
+	height: 500px;
+	margin: 50px 0;
+	padding: 50px 0;
+	background-color: black;
+}
+
+#art-4 h1{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: #00FFFF;
+}
+
+#art-4 h1 mark{
+	background-color: #00FFFF;
+	color: black;
+	transition-duration: .3s;
+}
+
+#art-4:hover h1 mark{
+	background-color: white;
+	color: black;
+}
+
+#art-4 p{	
+	margin-top: 30px;
+	padding: 0 100px;
+
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #c9c9c9;
+}
+
+#art-4 img{
+	width: 100%;
+	height: 300px;
+	margin: 50px 0;
+	object-fit: cover;
+}
+
+footer{
+	height: 100px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #c9c9c9;
+
+}
+
+footer mark{
+	background-color: orange;
+	color: white;
+	transition-duration: .3s;
+}
